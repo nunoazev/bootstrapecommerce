@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>COMPRFY</title>
+
+
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">COMPRFY</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li ><a href="index.html">Home</a></li>
+                <li ><a href="carrinho.html">Loja</a></li>
+                <li ><a href="sobrenos.html">Sobre nós</a></li>
+
+              </ul>
+                <ul class="nav navbar-nav navbar-right">
+			  <li class="active"><a href="checkout.html"><span class="glyphicon glyphicon-shopping-cart"></span> Carrinho</a></li>
+			</ul>
+            </div>
+          </div>
+        </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Carrinho de Compras
+                </h1>
+            </div>
+        </div>
+
+        <div class="row">
+        <div class="col-lg-12">
+
+            <table class="table table-condensed">
+    <thead>
+      <tr>
+        <th>Produto</th>
+        <th>Unidades</th>
+        <th>Preço</th>
+        <th>Ações</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Nome Album 5</td>
+        <td>1x</td>
+        <td>€4.99</td>
+          <td><i class="glyphicon glyphicon-remove" aria-hidden="true"></i> Remover</td>
+
+      </tr>
+      <tr>
+        <td>Nome Album 2</td>
+        <td>2x</td>
+        <td>€54.99</td>
+        <td><i class="glyphicon glyphicon-remove" aria-hidden="true"></i> Remover</td>
+
+      </tr>
+      <tr>
+        <td>Nome Album 6</td>
+        <td>1x</td>
+        <td>€20.99</td>
+        <td><i class="glyphicon glyphicon-remove" aria-hidden="true"></i> Remover</td>
+      </tr>
+
+    </tbody>
+  </table>
+            </div>
+
+        </div>
+
+
+                <div class="row">
+                    <a href="#" class="btn btn-lg btn-outline">
+
+                        <a class="btn btn-primary" data-toggle="modal" data-target="#myModal" href="#"><i class="glyphicon glyphicon-check" aria-hidden="true"></i> Pagar</a>
+                    </a>
+                </div>
+
+          <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Pagamento</h4>
+        </div>
+        <div class="modal-body">
+
+                <div class="row">
+
+            <div class="col-md-6">
+
+                    <label for="fname">Numero Cartao</label>
+                    <input type="text" id="fname" name="firstname" placeholder="">
+
+                    <label for="lname">CVS</label>
+                    <input type="text" id="lname" name="lastname" placeholder="">
+                    <label for="lname">Data</label>
+                    <input type="text" id="lname" name="lastname" placeholder="">
+                <select id="tipo" name="Tipo">
+                      <option value="Visa">Visa</option>
+                      <option value="Master">Master</option>
+                      <option value="Maester">Maester</option>
+                    </select>
+                    </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-success" data-dismiss="modal">Confirmar</button>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2017 tweb2, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div>
+    <!-- /.container -->
+
+
+    <script src="assets/js/vendor/jquery.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
