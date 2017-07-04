@@ -1,0 +1,63 @@
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical; }
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; }
+
+input[type=submit]:hover {
+  background-color: #45a049; }
+
+body {
+  padding-top: 70px; }
+
+.portfolio-item {
+  margin-bottom: 25px; }
+
+footer {
+  margin: 50px 0; }
+
+.slide-image {
+  width: 100%; }
+
+.carousel-holder {
+  margin-bottom: 30px; }
+
+.carousel-control,
+.item {
+  border-radius: 4px; }
+
+.legenda {
+  height: 130px;
+  overflow: hidden; }
+
+.legenda h4 {
+  white-space: nowrap; }
+
+.thumbnail img {
+  width: 100%; }
+
+.restantes {
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #d17581; }
+
+.thumbnail {
+  padding: 0; }
+
+.thumbnail .caption-full {
+  padding: 9px;
+  color: #333; }
+
+/*# sourceMappingURL=style.css.map */
